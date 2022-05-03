@@ -49,7 +49,7 @@ def kmodes_algorithms(k, df, iteration):
         print(group_index)
     return group_index
 
-def classfication(df, serotypes):
+def classfication(df, serotypes):        # K1NN-like method 
     predict_result = [-1] * len(df.index)
     count = 0
     for i in range(len(df.index)):
